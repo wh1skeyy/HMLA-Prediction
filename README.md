@@ -423,15 +423,3 @@ def predict():
 
     # Render the result back to the UI
     return render_template('index.html', prediction=predicted_category)
-```
-
-## Group 6 members & contribution
-- Trần Lê Minh__11224314 : **18%**
-- Đặng Minh Khuê__11223116 : **16%**
-- Nguyễn Xuân Trường__11226641 : **16%**
-- Trần Thế Kiệt__11223186 : **14%**
-- Nguyễn Thị Hải Quyên__11225487 : **13%**
-- Phạm Đức Quân__11225394 : **13%**
-- Phạm Tâm Ngân__11224599 : **10%**
-
-Basically, toward the end, each type of 'action taken' would have a predicted index, and the one with the highest index will be chosen to return as the result.
